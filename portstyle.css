@@ -1,0 +1,320 @@
+/* CSS for HOME */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nobg{
+    color: black;
+    padding: 40px;
+    text-align: center;
+
+}
+header {
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    font-size: 30px;
+    background-image: url(bgimg.png);
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: left;
+    padding: 20px 0;
+    background-color: whitesmoke;
+    display: flex;
+height: 75vh;
+padding: 0;
+
+
+}
+
+footer {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-image: url(bgimg.png);
+    color: #fff;
+    padding: 20px 0;
+}
+.vertical-menu {
+    width: 300px; /* Set the desired width of your vertical menu */
+    float: right; /* Adjust as needed, depending on your layout */
+    
+        background-color: #D4D4D4; /* Background color for the heading */
+        padding: 10px;
+        margin: 0;}    
+
+
+
+/* CSS for CONTACT */
+.bdy { 
+    font-family: 'Poppins', sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh; 
+    background-image: 
+        linear-gradient(120deg, #caeff2 0%, #a2c2ee 100%); 
+} 
+  
+.ffbox { 
+    display: flex; 
+    width: 80%; 
+    background-color: #fff; 
+    border: 3px solid #e4e4e9; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    border-radius: 10px; 
+    flex-wrap: wrap; 
+    text-align: left;
+    padding:20px 0;
+} 
+  
+.ffbox1 { 
+    flex: 1; 
+    max-width:500px;
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+} 
+  
+.ffbox1 label { 
+    display: block; 
+    margin-bottom: 8px; 
+} 
+  
+.ffbox1 input, 
+.ffbox1 textarea { 
+    width: 100%; 
+    padding: 8px; 
+    margin-bottom: 16px; 
+    box-sizing: border-box; 
+    border-radius: 15px; 
+    background-color: #dcdce1; 
+    border: none; 
+} 
+  
+.ffbox1 textarea { 
+    resize: vertical; 
+} 
+  
+.ffbox1 { 
+    margin-bottom: 16px; 
+} 
+  
+.ffbox1 label { 
+    margin-right: 16px; 
+} 
+button { 
+    width: 100%; 
+    padding: 8px; 
+    margin-bottom: 16px; 
+    box-sizing: border-box; 
+    border-radius: 15px; 
+    background-color: #CADCFC; 
+    color: #00246B; 
+    font-size: 17px; 
+    font-weight: 700; 
+    border: #a2c2ee; 
+} 
+  
+button:hover { 
+    background-color: red; 
+} 
+  
+.info iframe { 
+    border: 0; 
+    padding: 10px; 
+} 
+  
+.gfg { 
+    text-align: center; 
+    color: black;
+    font-weight: 100;
+    font-style: oblique; 
+} 
+.info { 
+    background-color: white; 
+}
+
+
+
+.vertnavi {
+    width: 100px; /* Set the desired width of your vertical menu */
+    float: right; /* Adjust as needed, depending on your layout */
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+.vertnavi h2 {
+    background-color: #f2f2f2; /* Background color for the heading */
+    padding: 10px;
+    margin: 0;
+}
+
+.vertnavi ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.vertnavi li {
+    padding: 8px;
+   
+}
+
+.vertnavi li:last-child {
+    border-bottom: none; /* Remove border from the last list item */
+}
+
+.vertnavi a {
+    text-decoration: none;
+    color:whitesmoke;
+    display: block; /* Make the entire list item clickable */
+}
+
+
+
+
+/*CSS for About Page */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.aboutbdy{
+    background-image:url(bgimg.png);
+    font-family: 'Roboto';
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    background-size: cover;
+}
+.aboutimg{
+    max-width:1100px;
+    margin:0 auto;
+    padding: 0 3rem;
+    margin-top:0 4rem;
+    text-align:center;
+    margin-top: 5rem;
+    margin-bottom:5rem;
+
+}
+.abouth22{
+    color:white;
+    text-align: center;
+    font-size:5rem;
+    font-weight:700;
+    letter-spacing:8px;
+    margin-bottom:2rem;
+}
+.aboutpara{
+    font-size:20px;
+    text-align: center;
+    color:#fff;
+    line-height:5rem;
+    margin-bottom:5rem;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.cpbtn{
+    display:inline-block;
+    padding:40px 40px;
+    background:#f6f6f6;
+    font-size:2rem;
+    text-decoration: none;
+    color:#a2c2ee;
+    border-radius:10px;
+    transition:background 0.5s;
+    margin-left: 300px;
+    margin-bottom: 20px;
+
+}
+.cpbtn:hover{
+    background-color: red; 
+}
+.hpgbtn{
+    display:inline-block;
+    padding:40px 40px;
+    background:#f6f6f6;
+    font-size:2rem;
+    text-decoration: none;
+    color:#a2c2ee;
+    border-radius:10px;
+    transition:background 0.5s;
+}
+.hpgbtn:hover{
+   background-color: red; 
+}
+.resbtn{
+    display:inline-block;
+    padding:40px 40px;
+    background:#f6f6f6;
+    font-size:2rem;
+    text-decoration: none;
+    color:#a2c2ee;
+    border-radius:10px;
+    transition:background 0.5s;
+    margin-left: 200px;
+    margin-bottom: 20px;
+
+}
+.resbtn:hover{
+    background-color: red; 
+}
+
+/* .abouthd{
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+} */
+/* style="background-image: url(bgimg.png);background-repeat: no-repeat;background-size: 100% 100%; background-size: cover;" */
+
+
+/* CSS for Resume */
+/* .resbdy{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.ressection{
+    margin-top: 20px;
+}
+.job, .project {
+    margin-bottom: 20px;
+} */
+/* INLINE CSS USED */
+.a1 {
+    width: 100%; 
+    padding: 8px; 
+    margin-bottom: 16px; 
+    box-sizing: border-box; 
+    border-radius: 15px; 
+    background-color: #CADCFC; 
+    color: #00246B; 
+    font-size: 17px; 
+    font-weight: 700; 
+    border: #a2c2ee;
+}
+
+.a1:hover {
+    background: red;
+}
